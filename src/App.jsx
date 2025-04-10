@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [items] = useState(() => 
-    Array.from({ length: 1000 }, (_, i) => ({
+    Array.from({ length: 10000 }, (_, i) => ({
       id: i,
       title: `Item ${i + 1}`,
       description: `This is item ${i + 1} with detailed description. ${'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '.repeat(3)}`,
